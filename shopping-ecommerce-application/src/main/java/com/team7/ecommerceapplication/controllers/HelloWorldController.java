@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api")
 public class HelloWorldController {
 
-    @GetMapping("hello-world")
-    public ResponseEntity<String> printHelloWorld() {
-        return ResponseEntity.accepted().body("Hello World!");
-    }
-
     @GetMapping("/cart")
     public String welcomeMessage() {
         return "Welcome to the e-Cart Application!";
     }
+
+	  @GetMapping("hello-world")
+	  public ResponseEntity<String> printHelloWorld() {
+		  return ResponseEntity.accepted().body("Hello World!");
+	  }
 }
