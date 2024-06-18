@@ -1,4 +1,4 @@
-package com.team7.ShoppingEcommerceApplication.ShoppingEcommerceApplication;
+package com.team7.ecommerceapplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
