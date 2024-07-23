@@ -1,10 +1,10 @@
 package com.dextris.hrms.employee.exception;
 
-public class EmployeeNotFoundException extends RuntimeException {
+public class NoEmployeesAtATimeException extends Exception {
 
 	private static final long serialVersionUID = 1L;
 
-	public EmployeeNotFoundException(String message) {
+	public NoEmployeesAtATimeException(String message) {
 		super(message);
 	}
 }
