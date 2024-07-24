@@ -3,9 +3,9 @@ package com.hrms.dextris.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.hrms.dextris.model.EmpPaySlip;
+import com.hrms.dextris.model.EmployeePaySlip;
 
 @Repository
-public interface EmpRepoPaySlip extends JpaRepository<EmpPaySlip, Integer>{
+public interface EmployeeRepositoryPaySlip extends JpaRepository<EmployeePaySlip, Integer>{
 
 }
