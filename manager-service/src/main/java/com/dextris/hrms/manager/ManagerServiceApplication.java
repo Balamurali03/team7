@@ -1,13 +1,13 @@
-package com.js.springSecurityBasics;
+package com.dextris.hrms.manager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DextrisHdmsApplication {
+public class ManagerServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DextrisHdmsApplication.class, args);
+		SpringApplication.run(ManagerServiceApplication.class, args);
 	}
 
 }
