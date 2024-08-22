@@ -8,10 +8,10 @@
 		<version>3.3.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.dextris.hdms</groupId>
-	<artifactId>Dextris_HDMS</artifactId>
+	<groupId>com.dextris.hrms</groupId>
+	<artifactId>manager-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Dextris_HDMS</name>
+	<name>manager-service</name>
 	<description>springSecurityBasics</description>
 	<url/>
 	<licenses>
